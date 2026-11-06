@@ -1,7 +1,10 @@
 # Product
 
-**kiroween-bridgelab** is a starter/template web application built with React, TypeScript, and Vite. It serves as a development sandbox and starting point for building React-based projects.
+BridgeLab is a browser-based 2D truss bridge lab with a gothic mad-scientist visual theme.
 
-The app currently renders a branded landing page with a hero section, a click counter, and links to documentation and community resources (Vite, React, GitHub, Discord, X, Bluesky).
-
-It is a private project (not published to npm) and is in early/template state (`version: 0.0.0`).
+- Users build a truss from joints and members, then the app solves it with a deterministic direct-stiffness solver and shows member forces, reactions, deflection and failures.
+- A tutor explains results using only numbers the solver produced. It never invents figures.
+- It is a static site (GitHub Pages) with no backend and no accounts. Data lives in browser storage.
+- An optional AI chat layer may be added later. The app must work fully with it off.
+- Built for Kiroween 2026 (Frankenstein category). The editor, graph validator, solver and tutor are stitched together, and an "Under the hood" view shows how.
+- Public repo, MIT license.
